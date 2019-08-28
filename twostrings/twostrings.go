@@ -1,3 +1,7 @@
+/*
+Implement a function that is given two strings and returns whether 
+  one can be transformed into the other by removing exactly one character.
+*/
 package main
 
 import (
@@ -5,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello Twostrings!")
+	// Given tests
 	fmt.Println(equalsWhenOneCharRemoved("x", "y"))        //false
 	fmt.Println(equalsWhenOneCharRemoved("x", "XX"))       //false
 	fmt.Println(equalsWhenOneCharRemoved("yy", "yx"))      //false
